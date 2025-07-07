@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: "Open Sans", sans-serif; 
 }
 
@@ -9,6 +12,12 @@
 }
 .dark-1{
     color: #181818;
+}
+
+.btn-primaray{
+    color: white;
+    background-color: #FD6E0A;
+    /* padding: 36px 18px; */
 }
 
 .dark-2{
@@ -20,6 +29,8 @@
 .navibar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 50px 100px;
 }
 .navibar h2{
     font-weight: 800;
